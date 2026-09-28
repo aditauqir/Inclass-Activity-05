@@ -1,17 +1,17 @@
-# inclass05
+# Inclass Activity 05 Counter
 
-A new Flutter project.
+Flutter counter app for the Activity 05 assignment.
 
-## Getting Started
+## Included
 
-This project is a starting point for a Flutter application.
+- `lib/main.dart` — completed application source
+- `test/widget_test.dart` — automated behavior tests
+- `Tauqir_Adi_Activity05_MW.apk` — release APK for submission
 
-A few resources to get you started if this is your first Flutter project:
+## Verify locally
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter test
+flutter analyze
+flutter build apk --release
+```
